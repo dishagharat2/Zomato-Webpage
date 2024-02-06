@@ -1,0 +1,16 @@
+
+div {
+    width: 100px;
+    height: 100px;
+    margin: 100px auto;
+    background-color: red;
+    
+}
+
+div:hover {
+    width: 250px;
+    height: 250px;
+    border-radius: 50px auto;
+    background-color: green;
+    
+}

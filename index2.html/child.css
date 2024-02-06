@@ -1,0 +1,20 @@
+.container p:nth-child(odd){         /*(2n)=>even, (2n+1)=>odd */
+    color: red;
+}
+
+p::before{
+    content:"hello";
+    background-color: brown;
+    color: #fff;
+    display: block;
+}
+
+p::after{
+    content:"world";
+    background-color: rgb(35, 80, 17);
+    color: #fff;
+    display: block;
+}
+
+
+
